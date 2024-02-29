@@ -1,2 +1,5 @@
 # AL_Skills_DB
- Database where you can upload your table of owned ships and see what specific color skills your ships have at various stages of growth. Examples are in README file.
+ Database where you can upload your table of owned ships and see what specific color skills your ships have at various stages of growth./n
+ ### Examples
+![The Red skills section of the Jupyter Notebook](https://github.com/PendingReads/AL_Skills_DB/assets/161671867/baff54c4-a0b2-40f8-8b67-3da93ec4cacf)
+In the image, you can see that at (4) and (5) are the lines search(redClean, 'Charles') and skillSearch(redClean, 'dance'). These two are basically search fields that can be used to look up ship names and skill names within the below redShips table, which has all the ships in your dock that happen to have access to red skills (whether they can access them from the start, or if you need to retrofit them and/or other factors). This should theoretically make it easier for you to decide on how you should spend your red skill books (Reason why I started this whole project is because I hated the sort function in-game). Of course, you'll be able to do this for all the other skill colors too. 
